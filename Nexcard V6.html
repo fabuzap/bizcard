@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CST Group - Insurance Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Light gray background */
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f5f5f5; /* Gray background */
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #003366; /* Dark blue font color */
+            font-weight: bold;
+        }
+        .header h2 {
+            margin: 5px 0 0 0;
+            font-size: 16px;
+            color: #003366; /* Dark blue font color */
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .profile-image {
+            text-align: center;
+            padding: 30px;
+            background-color: #f5f5f5;
+        }
+        .profile-image img {
+            border-radius: 50%; /* Rounded */
+            border: 4px solid #e0e0e0; /* Light grey border */
+            width: 100px;
+            height: 100px;
+        }
+        .profile-info {
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-info h1 {
+            margin: 10px 0;
+            font-size: 20px;
+            color: #003366; /* Dark blue */
+        }
+        .profile-info h2 {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+            font-weight: 400;
+        }
+        .credentials {
+            font-size: 12px;
+            color: #555;
+            margin-top: 5px;
+        }
+        .contact-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .contact-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 30px; /* Rounded pill shape */
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #003366; /* Dark blue text */
+            transition: all 0.3s ease;
+            font-size: 14px; /* Smaller text */
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-button i {
+            font-size: 24px; /* Icon size */
+            margin-bottom: 5px;
+            color: #003366; /* Dark blue icon color */
+        }
+        .contact-button.save {
+            background-color: #003366; /* Dark blue for Save button */
+            color: #fff;
+            border: none;
+        }
+        .contact-button.save i {
+            color: #fff; /* White icon for Save button */
+        }
+        .contact-button:hover {
+            background-color: #e0e0e0; /* Subtle hover effect */
+        }
+        @media (max-width: 480px) {
+            .contact-button {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>CST Group</h1>
+        <h2>Insurance Specialist</h2>
+    </div>
+
+    <!-- Profile Container -->
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="https://smtp18.mschosting.com/d/cstgroup.com.my/Txbw9w/U4XEC9QJTK1V.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+            <h1>Fabian Low</h1>
+            <h2>Chief Executive Officer</h2>
+            <h2>C S Thian Enterprise Sdn Bhd</h2>
+            <p class="credentials">BSc Hons Acct & Fin (UOL), CFP CERT TM, AMII, MBA</p>
+        </div>
+
+        <!-- Contact Buttons -->
+        <div class="contact-buttons">
+            <a href="tel:+60178884932" class="contact-button">
+                <i class="fas fa-phone"></i>
+                Call
+            </a>
+            <a href="https://wa.me/+60178884932" class="contact-button">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+            </a>
+            <a href="mailto:fabian.low@example.com" class="contact-button">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+            <a href="https://www.google.com/maps?q=C+S+Thian+Enterprise+Sdn+Bhd" class="contact-button">
+                <i class="fas fa-map-marker-alt"></i>
+                Location
+            </a>
+            <a href="http://www.cstgroup.online" class="contact-button" target="_blank">
+                <i class="fas fa-globe"></i>
+                Website
+            </a>
+            <a href="fabian-low.vcf" class="contact-button save">
+                <i class="fas fa-address-card"></i>
+                Save
+            </a>
+        </div>
+    </div>
+</body>
+</html>
